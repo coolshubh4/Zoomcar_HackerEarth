@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		982167C81BAD3F47009CD860 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982167C71BAD3F47009CD860 /* AppDelegate.swift */; };
+		982167CA1BAD3F47009CD860 /* ZoomCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982167C91BAD3F47009CD860 /* ZoomCarViewController.swift */; };
+		982167CD1BAD3F47009CD860 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982167CB1BAD3F47009CD860 /* Main.storyboard */; };
+		982167CF1BAD3F47009CD860 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 982167CE1BAD3F47009CD860 /* Assets.xcassets */; };
+		982167D21BAD3F47009CD860 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 982167D01BAD3F47009CD860 /* LaunchScreen.storyboard */; };
+		982167DA1BAD5255009CD860 /* ZHEClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982167D91BAD5255009CD860 /* ZHEClient.swift */; settings = {ASSET_TAGS = (); }; };
+		982167DC1BAD68F9009CD860 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982167DB1BAD68F9009CD860 /* Car.swift */; settings = {ASSET_TAGS = (); }; };
+		982167DE1BAD7E3B009CD860 /* CarListingsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 982167DD1BAD7E3B009CD860 /* CarListingsTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		98AF6A551BADC1B900A246C1 /* BookingDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AF6A541BADC1B900A246C1 /* BookingDetailViewController.swift */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		982167C41BAD3F47009CD860 /* Zoomcar_HackerEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zoomcar_HackerEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		982167C71BAD3F47009CD860 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		982167C91BAD3F47009CD860 /* ZoomCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZoomCarViewController.swift; sourceTree = "<group>"; };
+		982167CC1BAD3F47009CD860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		982167CE1BAD3F47009CD860 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		982167D11BAD3F47009CD860 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		982167D31BAD3F47009CD860 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		982167D91BAD5255009CD860 /* ZHEClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHEClient.swift; sourceTree = "<group>"; };
+		982167DB1BAD68F9009CD860 /* Car.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		982167DD1BAD7E3B009CD860 /* CarListingsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarListingsTableViewCell.swift; sourceTree = "<group>"; };
+		98AF6A541BADC1B900A246C1 /* BookingDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookingDetailViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		982167C11BAD3F47009CD860 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		982167BB1BAD3F47009CD860 = {
+			isa = PBXGroup;
+			children = (
+				982167C61BAD3F47009CD860 /* Zoomcar_HackerEarth */,
+				982167C51BAD3F47009CD860 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		982167C51BAD3F47009CD860 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				982167C41BAD3F47009CD860 /* Zoomcar_HackerEarth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		982167C61BAD3F47009CD860 /* Zoomcar_HackerEarth */ = {
+			isa = PBXGroup;
+			children = (
+				982167C71BAD3F47009CD860 /* AppDelegate.swift */,
+				982167DB1BAD68F9009CD860 /* Car.swift */,
+				982167D91BAD5255009CD860 /* ZHEClient.swift */,
+				982167DD1BAD7E3B009CD860 /* CarListingsTableViewCell.swift */,
+				982167C91BAD3F47009CD860 /* ZoomCarViewController.swift */,
+				98AF6A541BADC1B900A246C1 /* BookingDetailViewController.swift */,
+				982167CB1BAD3F47009CD860 /* Main.storyboard */,
+				982167CE1BAD3F47009CD860 /* Assets.xcassets */,
+				982167D01BAD3F47009CD860 /* LaunchScreen.storyboard */,
+				982167D31BAD3F47009CD860 /* Info.plist */,
+			);
+			path = Zoomcar_HackerEarth;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		982167C31BAD3F47009CD860 /* Zoomcar_HackerEarth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 982167D61BAD3F47009CD860 /* Build configuration list for PBXNativeTarget "Zoomcar_HackerEarth" */;
+			buildPhases = (
+				982167C01BAD3F47009CD860 /* Sources */,
+				982167C11BAD3F47009CD860 /* Frameworks */,
+				982167C21BAD3F47009CD860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zoomcar_HackerEarth;
+			productName = Zoomcar_HackerEarth;
+			productReference = 982167C41BAD3F47009CD860 /* Zoomcar_HackerEarth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		982167BC1BAD3F47009CD860 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = coolshubh4;
+				TargetAttributes = {
+					982167C31BAD3F47009CD860 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = J5D28XD24C;
+					};
+				};
+			};
+			buildConfigurationList = 982167BF1BAD3F47009CD860 /* Build configuration list for PBXProject "Zoomcar_HackerEarth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 982167BB1BAD3F47009CD860;
+			productRefGroup = 982167C51BAD3F47009CD860 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				982167C31BAD3F47009CD860 /* Zoomcar_HackerEarth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		982167C21BAD3F47009CD860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982167D21BAD3F47009CD860 /* LaunchScreen.storyboard in Resources */,
+				982167CF1BAD3F47009CD860 /* Assets.xcassets in Resources */,
+				982167CD1BAD3F47009CD860 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		982167C01BAD3F47009CD860 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				982167DA1BAD5255009CD860 /* ZHEClient.swift in Sources */,
+				98AF6A551BADC1B900A246C1 /* BookingDetailViewController.swift in Sources */,
+				982167CA1BAD3F47009CD860 /* ZoomCarViewController.swift in Sources */,
+				982167DC1BAD68F9009CD860 /* Car.swift in Sources */,
+				982167DE1BAD7E3B009CD860 /* CarListingsTableViewCell.swift in Sources */,
+				982167C81BAD3F47009CD860 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		982167CB1BAD3F47009CD860 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982167CC1BAD3F47009CD860 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		982167D01BAD3F47009CD860 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				982167D11BAD3F47009CD860 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		982167D41BAD3F47009CD860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		982167D51BAD3F47009CD860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		982167D71BAD3F47009CD860 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zoomcar_HackerEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coolshubh4.Zoomcar-HackerEarth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		982167D81BAD3F47009CD860 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Zoomcar_HackerEarth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.coolshubh4.Zoomcar-HackerEarth";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		982167BF1BAD3F47009CD860 /* Build configuration list for PBXProject "Zoomcar_HackerEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982167D41BAD3F47009CD860 /* Debug */,
+				982167D51BAD3F47009CD860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		982167D61BAD3F47009CD860 /* Build configuration list for PBXNativeTarget "Zoomcar_HackerEarth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982167D71BAD3F47009CD860 /* Debug */,
+				982167D81BAD3F47009CD860 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 982167BC1BAD3F47009CD860 /* Project object */;
+}
